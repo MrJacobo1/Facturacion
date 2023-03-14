@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: unset;
+}
+
+header, footer{
+    background-color: #6bb39b;
+    text-align: center;
+    font-size: 16px;
+    color: #0b0b0d;
+    padding: 10px 0px;
+    position: relative;
+    border: 1px solid #382f32;
+    font-family: 'Rampart One', cursive;
+}	
+
+section{
+    font-family: 'Amatic SC', cursive;
+	height:auto;
+    padding-bottom: 15px;
+	background-color: #daf3ea;
+	font-size:20px;
+    position: relative;
+    width: 100%;
+    display: relative;
+    justify-content: center;
+}
+#mostrar{
+    height: 50px;
+    width: 100px;
+}
+footer{
+    background-color: #6bb39b;
+}
+article{
+    width: 90%;
+    height: auto;
+}
+.segundo{
+    margin-bottom: 10px;
+}
+.segundo_campo{
+    display: inline-block;
+    margin-left: 75px;
+    width: 100%;
+    height: auto;
+    background-color: #f7f4e8;
+}
+
+.primer_campo{
+    margin-left: 75px;
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    background-color: #f7f4e8;
+}
+.formularios{
+    width: 100%;
+    display: inline-block;
+    align-content: center;
+    padding-left: 35%;
+}
+.texto1{
+    font-size: 14px;
+}
+input{
+    margin-bottom: 10px;
+}
+.btn{
+    border-radius: 10%;
+    background-color: #daf3ea;
+    width: 70px;
+    height: 30px;
+    margin-left: 15%;
+}
+.campos{
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+}
+.datos{
+    margin-left: 15px;
+}
+.btn1{
+    border-radius: 10%;
+    background-color: #daf3ea;
+    width: 100px;
+    height: 50px;
+    margin-left: 90%;
+}
+.btn2{
+    border-radius: 10%;
+    background-color: #daf3ea;
+    width: 100px;
+    height: 25px;
+    margin-left: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.total{
+    display: inline-block;
+    background-color: #f7f4e8;
+    width: 200px;
+    height: 150px;
+    border: 1.5px solid #000; 
+    margin-left: 90%;
+    padding: 10px;
+}
+.sub{
+    border-bottom: 1px solid #000;
+}
+.eliminar{
+    margin-top:20px ;
+    width: 45px;
+    height: 45px;
+    background-color: #daf3ea;
+}
+.icono{
+    width: 32px;
+    height: 32px;
+}
